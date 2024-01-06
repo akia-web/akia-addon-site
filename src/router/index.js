@@ -4,7 +4,7 @@ import PopupAddon from "@/components/popupAddon/popupAddon.vue";
 
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/worldofwarcraft'),
   routes: [
     {
       path: "/",  //chemin de l'url
