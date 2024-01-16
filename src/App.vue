@@ -16,7 +16,7 @@ export default {
   box-sizing: border-box;
 }
 #app{
-    background: rgb(65, 64, 64);
+    /* background: rgb(65, 64, 64); */
     min-height: 100vh;
     font-family: 'Varela Round', sans-serif;
 }

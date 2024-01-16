@@ -1,7 +1,5 @@
 <template>
-  <div class="hello">
-    <!-- <img src="../assets/today.jpg" alt=""> -->
-    <!-- ./assets/logo.png -->
+  <div>
     <header>
       <a :href="downloadLink" download="akia-launcher.zip">Télécharger le launcher d'addons</a>
     </header>
@@ -9,8 +7,6 @@
       <cartes-addon  v-for="item in listAddon" :key="item.name" :Item="JSON.stringify(item) "></cartes-addon>
       
     </div>
-    <!-- <popup-addon  @close-popup="handleClosePopup" v-if="popup" :Item="JSON.stringify(addon)"></popup-addon> -->
-    
   </div>
 </template>
 
@@ -18,7 +14,6 @@
 import CartesAddon from './cartesAddon.vue'
 // import PopupAddon from './popupAddon/popupAddon.vue'
 import {listeAddon} from '@/functions/help'
-
 export default {
   name: 'containerApp',
   props: {
@@ -29,7 +24,8 @@ export default {
        downloadLink:  process.env.BASE_URL + "akia-launcher.zip",
        popup:false,
        listAddon: listeAddon,
-       addon:null
+       addon:null,
+       checked:false
     }
   },
    methods: {
@@ -39,20 +35,17 @@ export default {
   },
   components: {
     CartesAddon,
-    // PopupAddon
   }
 }
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container-cartes{
   display: flex;
   width: 90%;
   margin: 2em auto 0;
   flex-direction: column;
-  /* background: red; */
   justify-content: space-between;
 }
 .container-button{
