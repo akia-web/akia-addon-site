@@ -12,7 +12,7 @@
       
     </template>
     <template #footer>
-      <div>
+      <div class="content-footer">
         <Button label="Détail" outlined @click="openPopup()" />
       </div>
       
@@ -69,15 +69,18 @@ export default {
 
 .container-carte{
     background: rgb(241, 206, 211);
-    padding: 10px;
+    padding: 10px 5px;
     margin-bottom: 2em;
 }
 h2{
-    color: rgb(65, 64, 64);
+    /* color: rgb(65, 64, 64); */
+    color:#9d2a5f;
     text-align: center;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    margin-bottom: 10px;
+    padding: 15px;
     font-family: 'Varela Round', sans-serif;
+    border: 2px dotted rgb(241, 206, 211);
+    background: white;
 }
 
 :deep(.p-image-preview-container>img){
@@ -90,7 +93,10 @@ h2{
   width: 100%;
  
 }
-
+.content-footer{
+  display: flex;
+  flex-direction: row-reverse;
+}
 button{
     margin-top: 2em;
     padding: 10px;

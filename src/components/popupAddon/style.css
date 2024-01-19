@@ -43,7 +43,8 @@ h2{
         width: 500px;
     }
 }
-.small-image{ width: 50px; 
+.small-image{ 
+  width: 100px; 
   margin-right: 10px;
   cursor: pointer;
 }
@@ -106,7 +107,7 @@ svg{
 
 .close{
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   margin-bottom: 3em;
 }
 
@@ -117,10 +118,14 @@ svg{
 }
 
 .closeButton{
-  padding: 10px;
   cursor: pointer;
   font-size: 20px;
   transition: 0.2s ease-in-out;
+  color:white;
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
 }
 
 .closeButton:hover{
