@@ -40,8 +40,9 @@ export const listeAddon = [
             {image:"menu-summonedMount.jpg", thumbnail:"menu-summonedMount.jpg"}, 
             {image:"choix-icone.jpg", thumbnail:"choix-icone.jpg"}, 
             {image:"choix-mount.jpg", thumbnail:"choix-mount.jpg"},
-            {image:"https://youtu.be/a5Bbem8PV78" , thumbnail:"choix-mount.jpg"}
+            {image:"https://www.youtube.com/embed/a5Bbem8PV78?si=QLgw42vrSCB3YcgC" , thumbnail:"choix-mount.jpg"}
         ],
+
         description: 
         `
         <p> Invoquez des montures en fonctions de l'environnement  oú vous vous trouvez en un seul clic parmis toutes vos montures ou vos favorites </p> <br><br>
