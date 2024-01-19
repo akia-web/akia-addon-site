@@ -40,7 +40,7 @@ export const listeAddon = [
             {image:"menu-summonedMount.jpg", thumbnail:"menu-summonedMount.jpg"}, 
             {image:"choix-icone.jpg", thumbnail:"choix-icone.jpg"}, 
             {image:"choix-mount.jpg", thumbnail:"choix-mount.jpg"},
-            {image:"https://www.youtube.com/embed/JLj5FpjXS4I?si=1mctccHrLQCzIHTy", thumbnail:"choix-mount.jpg"}
+            {image:"https://youtu.be/a5Bbem8PV78" , thumbnail:"choix-mount.jpg"}
         ],
         description: 
         `
